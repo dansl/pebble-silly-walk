@@ -19,10 +19,6 @@ RotBmpPairContainer minute_hand_image_container;
 RotBmpPairContainer second_hand_image_container;
 
 void update_watch(PblTm* t){
-	// Watch = 144x168   half = 72x84
-	// Hour GFX = 70x70  half = 35x35
-	// Min GFX = 30x70   half = 15x35
-	// Sec GFX = 14x50   half = 7x25
 
 	//rotbmp_pair_layer_set_angle(&hour_hand_image_container.layer, ((t->tm_hour % 12) * 30) + (t->tm_min/2));
 	hour_hand_image_container.layer.white_layer.rotation = TRIG_MAX_ANGLE * (((t->tm_hour % 12) * 30) + (t->tm_min/2)) / 360;
