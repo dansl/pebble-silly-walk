@@ -1,0 +1,39 @@
+{
+    "friendlyVersion": "dev_0.0",
+    "versionDefName": "APP_RESOURCES",
+
+    "media": [
+
+	{
+        "type": "png",
+        "defName": "IMAGE_MENU_ICON",
+        "file": "images/icon.png"
+	},
+
+	{
+        "type": "png",
+        "defName": "IMAGE_BACKGROUND",
+        "file": "images/background.png"
+	},
+
+	{
+        "type": "png-trans",
+        "defName": "IMAGE_HOUR_HAND",
+        "file": "images/hour_hand.png"
+	},
+
+	{
+        "type": "png-trans",
+        "defName": "IMAGE_MINUTE_HAND",
+        "file": "images/minute_hand.png"
+	},
+
+	{
+        "type": "png-trans",
+        "defName": "IMAGE_SECOND_HAND",
+        "file": "images/seconds_hand.png"
+	}
+
+    ]
+}
+
