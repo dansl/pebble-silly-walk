@@ -64,7 +64,6 @@ void handle_init(AppContextRef app_ctx) {
 
 
 	// Set up a layer for the hour hand
-	//rotbmp_init_container(RESOURCE_ID_IMAGE_HOUR_HAND, &hour_hand_image_container);
 	rotbmp_pair_init_container(RESOURCE_ID_IMAGE_HOUR_HAND_WHITE, RESOURCE_ID_IMAGE_HOUR_HAND_BLACK, &hour_hand_image_container);
 	rotbmp_pair_layer_set_src_ic(&hour_hand_image_container.layer, GPoint(33, 40));
 	layer_add_child(&window.layer, &hour_hand_image_container.layer.layer);
